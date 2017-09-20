@@ -51,31 +51,31 @@ public class ExercicioBorderLayout extends JFrame {
         A.add(B1, N.NORTH);
         A.add(B2, N.SOUTH);
         A.add(L5, N.CENTER);
-        add(A, N.NORTH);
+        add(A, N.NORTH);//Norte
         
         B.setLayout(S);
         B.add(B3, S.NORTH);
         B.add(B4, S.SOUTH);
         B.add(L1, S.CENTER);
-        add(B, S.SOUTH);
+        add(B, S.SOUTH);//Sul
         
         C.setLayout(L);
         C.add(B5, L.NORTH);
         C.add(B6, L.SOUTH);
         C.add(L4, L.CENTER);
-        add(C, L.EAST);
+        add(C, L.EAST);//Leste
         
         D.setLayout(O);
         D.add(B7, O.NORTH);
         D.add(B8, O.SOUTH);
         D.add(L3, O.CENTER);
-        add(D, O.WEST);
+        add(D, O.WEST);//Oeste
         
         E.setLayout(CENTRO);
         E.add(B9, CENTRO.NORTH);
         E.add(B0, CENTRO.SOUTH);
         E.add(L2, CENTRO.CENTER);
-        add(E, CENTRO.CENTER);
+        add(E, CENTRO.CENTER);//Centro
         
         
         
